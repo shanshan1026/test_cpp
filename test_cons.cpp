@@ -9,7 +9,7 @@ class CDerived: public CBase {
 public:
     CDerived(){print();}
     virtual void print(){cout << "I am Derived" << endl;}
-} ;
+};
  
 int main()
 {
